@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    h1{
+        color: red;
+    }
+</style>
+</head>
+<body>
+    <h1>Assignment one </h1>
+    <p id="day"></p>
+    <p id="time"></p>
+    <script>
+        var d=new Date();
+     document.getElementById('day').innerHTML="Today is :"+d.getDay()+"  gives monday";
+     document.getElementById('time').innerHTML="Current Time is:"+d.getHours()+" PM :"+d.getMinutes()+":"+d.getSeconds();
+    </script>
+</body>
+</html>
